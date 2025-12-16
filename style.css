@@ -157,11 +157,15 @@ h6 {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    height: 600px;
     display: flex;
     align-items: center;
     padding-top: var(--header-height);
     background: radial-gradient(circle at 50% 50%, rgba(0, 195, 0, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.hero-content {
+    width: 800px;
 }
 
 .hero-container {
